@@ -32,13 +32,17 @@ header h1, p {
 /* Sezione principale */
 
 .row {
+  clear: both;
   margin-top: 30px;
+  background-color: violet;
 }
 
 .column {
-  display: inline-block;
-  width: calc((100%/3) - 3px);
+  float: left;
+  width: calc(100%/3 - 20px);
   padding: 5px;
+  margin-right: 20px;
+  margin-bottom: 30px;
   background-color: rgb(15, 14, 23);
 }
 
